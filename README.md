@@ -7,7 +7,7 @@ That uses H2 database or AWS RDS (mysql) Database having the records generated b
 * Spring boot application using thymeleaf templates for employees view, add and delete
 
 * Database (employee table) is hosted in Amazon RDS  
-Table is Employee within AWS RDS (database is employeedemo)  
+Table is Employee within AWS RDS (database is Book)  
 id (auto-increment)  
 name  
 email  
@@ -28,7 +28,7 @@ As temporary included localhost NAT IP for testing.
 Database independence achieved using ORM. In this case Spring Data JPA over Hibernate bindings.  
 
 Thymeleaf templates are used as view response in UI.
-MVC Design pattern is used with Controller, Model (database entities) and View (thymeleaf templates)  
+MVC Design pattern is used with Controller, Model (database Book) and View (thymeleaf templates)  
 
 AWS Cloudwatch to monitoring various details of hosted application, including S3, RDS  
 
